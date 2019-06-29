@@ -64,7 +64,8 @@ Por esta versiòn, eso no ha sido posible.
 
 #### Importante!: El renderizado de Markdown, se realiza al momento de Visualizar un archivo en lista y al momento de guardas mediante el botòn SAVE.
 
-
+## Screenshot de la aplicaciòn:
+https://github.com/mcarmonadev/mkdowneditorv1/blob/master/MarkDown_ScreenShot.png
 
 
 
