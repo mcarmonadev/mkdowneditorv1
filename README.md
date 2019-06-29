@@ -54,15 +54,15 @@ PUT - ttp://localhost:3002/api/file     -  agregar nuevo file
 POST - ttp://localhost:3002/api/file    -  update file
 GET - ttp://localhost:3002/api/file/delete/:idFile     -  delete file
 
-### Servicios API Ud si desea puede cambiar los puertos, revisando la configuraciòn
-### Muchos aspectos se habrìa podido mejorar, pero el tiempo apremia, por lo tanto esta versiòn queda congelada asi
+## Servicios API Ud si desea puede cambiar los puertos, revisando la configuraciòn
+## Muchos aspectos se habrìa podido mejorar, pero el tiempo apremia, por lo tanto esta versiòn queda congelada asi
 
-### Para resetear datos, detenga el backend, y elimine el archivo bd.sqlite, e invoque la pagina de inicializaciòn de bd
+## Para resetear datos, detenga el backend, y elimine el archivo bd.sqlite, e invoque la pagina de inicializaciòn de bd
 
-### Dado el uso excesivo de hooks, refs, y anidamientos, habria sido màs práctico el uso del patrón FLUX, implementando con REDUX
+## Dado el uso excesivo de hooks, refs, y anidamientos, habria sido màs práctico el uso del patrón FLUX, implementando con REDUX
 Por esta versiòn, eso no ha sido posible.
 
-### Importante!: El renderizado de Mardown, se realiza al momento de Visualizar un archivo en lista y al momento de guardas mediante el botòn SAVE.
+#### Importante!: El renderizado de Markdown, se realiza al momento de Visualizar un archivo en lista y al momento de guardas mediante el botòn SAVE.
 
 
 
