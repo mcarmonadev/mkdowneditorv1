@@ -1,0 +1,229 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.DottedBox  {
+  margin: 40px;
+  border: 5px dotted pink;
+}
+
+.DottedBox_content {
+  font-size: 15px;
+  text-align: center;
+}
+
+.MainContainer {
+	width: 100%;
+	height: 100%;
+	background-color: red;
+  	height: 100vh;
+    display: inline-flex;
+}
+
+.SideContainer {
+	width: 20%;
+	background-color: blue;
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      15px;
+    font-weight:    bold;
+    border:2px solid gray;
+}
+
+.SideBarTitle {
+	width: 100%;
+	height: 40px;
+	background-color: gray;
+	text-align: center;
+	line-height: 40px;   
+    color: white;
+}
+
+.FilesContainer {
+	width: 100%;
+    flex-grow : 1;
+	background-color: lightgray;
+  overflow-y: scroll;
+}
+
+.FileElement{
+	width: 100%;	
+	height: 55px;
+	background-color: lightgray;
+    margin-top: 2px;
+    display: inline-flex;
+}
+.FileElement:hover{
+   background-color:white;
+   color: gray;
+   cursor: pointer;
+}
+
+.FileElement_selected{
+	background-color: gray;
+	color: white;
+}
+
+.FileIco{
+	width: 50px;	
+	height: 48px;
+    margin-top: 5px;
+	text-align: left;
+	padding-left: 25px;
+}
+
+
+.FileLabel{
+	width:80%;	
+	height: 40px;
+	text-align: left;
+	padding-right: 10px;
+    margin-top:8px;
+    margin-left: 15px;
+}
+
+
+.FileName{
+	width:90%;	
+	height: 50%;
+	text-align: left;
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      15px;
+    font-weight:    bold;
+    margin-top:2px;
+}
+
+
+.FileDate{
+	width:90%;	
+	height: 20%;
+    margin-left: 0px;
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      12px;
+    font-weight:    bold;
+    color: black;
+    margin-top:2px;
+}
+
+.ToolBarContainer {
+	width: 100%;	
+	height: 70px;
+	background-color: gray;
+    padding-right: -5px;
+    border-color: gray;
+  	border-style: solid;
+  	border-width: 1px 0px 0px 0px;
+}
+
+
+.ToolBarButtons{
+	width: 100%;	
+	height: 30px;
+	background-color: gray;
+    display: inline-flex;
+    margin-bottom: -2px;
+    margin-top: 5px;
+}
+ 
+.ToolBarButton{
+	width: 31%;	
+	height: 20px;
+	line-height: 20px;   
+	background-color: lightgray;
+	text-align: center;
+    margin-top: 2px;
+    font-size:      12px;
+    font-weight:    bold;
+    margin-left: 3px;
+}
+.ToolBarButton:hover{
+   background-color:black;
+   color:white;
+   cursor: pointer;
+}
+
+.ToolBarButtonAdd{
+    margin-left: 5px;
+}
+
+.ToolBarButton_Invalid{
+    color:red;
+}
+
+.ToolBarText{
+	width: 100%;	
+	height: 35px;
+	background-color: gray;
+    display: inline-flex;
+    margin-top: -5px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.txtFileName{
+	width: 100%;	
+	background-color: gray;
+	align: left;
+  	margin: auto;
+  	display: block;    
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      12px;
+    font-weight:    bold;
+    color: blue;
+}
+.txtFileNameInput{
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      14px;
+    font-weight:    bold;
+    color: black;
+}
+
+
+
+.EditorContainer {
+  width: 40%;
+  background-color: white;
+  display: flex;
+  height: 100%;
+
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      15px;
+    font-weight:    bold;
+    border:2px solid gray;
+}
+
+.EditorTextInput {
+  width: 100%;
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      16px;
+    font-weight:    bold;
+
+    overflow-y: scroll;
+}
+
+.MarkdownContainer {
+  width: 40%;
+  background-color: white;
+  display: flex;
+  height: 100%;
+  border:2px solid gray;
+
+}
+
+.MarkdownShower {
+  width: 95%;
+  background-color: white;
+  height: 95%;
+  margin-right: 4px;
+  margin-left: 4px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      15px;
+    font-weight:    bold;
+}
