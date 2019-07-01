@@ -8,5 +8,4 @@ import MarkdownEditor from './Components/MarkdownEditor.js';
 
 const node = document.getElementById("root");
 
-var instanciaThis = this;
 render(<MarkdownEditor />, node);
