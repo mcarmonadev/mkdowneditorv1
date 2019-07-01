@@ -36,6 +36,7 @@ class SideBar extends Component {
   }  
   handlerSelectedFile(idFile, content){
     this.setState(() => ({ idSelectedFile: idFile, contentSelectedFile:content}))
+   //alert('handlerSelectedFile '+idFile+' - '+content)
     this.props.onSelectedFile(idFile, content);
   }
   handlerDeleteFile() {//Este es el inicio de save
@@ -48,6 +49,7 @@ class SideBar extends Component {
      this.refBarFiles.setIdFileSelected(-1);
      this.setState(() => ({idSelectedFile:-1}));     
      this.refBarFiles.getPosts(-1);
+     // handlerSelectedFile
   }
   render() {
     return (

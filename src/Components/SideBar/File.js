@@ -43,6 +43,14 @@ class File extends Component {
       this.loadFile();      
     }
   }
+  componentDidUpdate(prevProps){
+    if(this.props.selected!=prevProps.selected){
+      if(this.props.selected){
+        this.loadFile();      
+      }
+    }
+
+  }
 
   render() {
   	let fileClasses = ["FileElement"];if(this.props.selected)fileClasses.push('FileElement_selected');
