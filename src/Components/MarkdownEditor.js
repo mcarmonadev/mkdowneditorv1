@@ -43,7 +43,7 @@ class MarkdownEditor extends Component {
                   alert('File Deleted')         
                   console.log(instanciaMarkdownEditor);
                   instanciaMarkdownEditor.refEditorPanel.setTextContent('');
-    			  this.refMarkdownDisplay.setMarkdownContent('');
+    			        this.refMarkdownDisplay.setMarkdownContent('');
                   instanciaMarkdownEditor.refSideBar.refreshResetFiles();
               });
           })
